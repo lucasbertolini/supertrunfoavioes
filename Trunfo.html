@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+    <link rel="stylesheet" href="TRUNFO.css">
+    <script src="Trunfo.js"></script>
+    
+    
+</head>
+<body>
+
+    <header>
+        <a href="http://127.0.0.1:5500/TRUNFO/Trunfo.html"><img src="IMAGES/imgLogo.png" alt="TrunfoLogo"></a>
+        <div class="grayTextBox" id="grayTextBox">
+            <a href="http://127.0.0.1:5500/TRUNFO/Trunfo.html"><h1><strong>-= SUPER TRUNFO =-</strong> <br> Aeronaves de Superioridade</h1></a>
+        </div>
+
+    </header>
+
+<div class="btnGeraCarta"> 
+<button onclick="geraCarta()" id="btnSortear">Embaralhar</button></div>
+
+
+<form id="form">
+    <div class="atributo" id="escolhaAtributo"><h2>Escolha o seu atributo:</h2></div>    
+
+
+    <!-- <div class="imgUsuario" id="imgUsuario"></div> -->
+
+    <listaAtributos id="listaAtributos">
+        <div class="opcoes" id="opcoes"></div>
+        <div class="imagemVs" id="imagemVs"><img src="IMAGES/Imagem-VS-PNG (1).png" alt="IMAGEM VERSUS"></div>
+        <div class="opcoesPc" id="opcoesPc"></div>
+    </listaAtributos>
+
+    <div class="playGame"> 
+        <button type="button" id="btnJogar" onclick='jogar()' disabled='false'>Jogar </button>
+    </div>
+    
+</form>
+
+<div class="result" id="result"></div>
+
+<button class="btnJogarNovamente" id="btnJogarNovamente" onclick="jogarNovamente()">TENTAR NOVAMENTE!</button>
+
+
+</body>
+
+
+
+<footer>
+    <div class="main">Página produzida por <a href="https://www.linkedin.com/in/gabecgodoy/">Gabriel Godoy</a></div>
+</footer>
+</html>
